@@ -36,6 +36,10 @@ export default class Blank extends React.Component {
         }}
         style={styles.Image_3}
       />
+      <Button
+        title="Press me!"
+        onPress={() => this.props.navigation.navigate("BlankScreen2183174")}
+      />
     </View>
   )
 }
@@ -49,5 +53,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     alignContent: "flex-start"
   },
-  Image_3: { width: "50%", height: 100, alignSelf: "center" }
+  Image_3: { width: "50%", height: 100, alignSelf: "center" },
+  Button_5: {}
 })
