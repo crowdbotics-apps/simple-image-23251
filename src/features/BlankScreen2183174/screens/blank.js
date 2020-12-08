@@ -29,6 +29,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Image
+        resizeMode="contain"
         source={{
           uri:
             "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/crowdbotics_gjzOgVt.jpg"
